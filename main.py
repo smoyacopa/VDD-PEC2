@@ -28,11 +28,8 @@ def ridgeline():
     plt.xlabel('Average monthly rent (euros)', fontsize=12)
     plt.title("Barcelona's average rent price (2014-2022)", fontsize=20)
     plt.xlim(0, 2000)
-    plt.show()
+    plt.savefig('ridgeline_barcelona.png')
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     ridgeline()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
